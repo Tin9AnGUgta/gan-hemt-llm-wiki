@@ -1,0 +1,53 @@
+{
+  "checked_at": "2026-11-18T10:38:43+00:00",
+  "scope": "Engineering and first-pass preparation only; not full academic certification or G8/G9 completion.",
+  "unit_tests": {
+    "passed": 14,
+    "failed": 0,
+    "command": "python -B -m unittest discover -s tests -v"
+  },
+  "private_relative_file_links": "passed",
+  "source_ingest": {
+    "readable_sources": 5,
+    "pages_registered": 508,
+    "raw_pdfs_public": false
+  },
+  "actual_observed_issues": [
+    {
+      "kind": "graph-source-parse",
+      "issue": "Decimal equation suffixes were not captured in initial candidates; numbering and formulas may be separated by extraction order.",
+      "fix": "Graph 1.1 adds decimal labels and visual-pairing risk pages."
+    },
+    {
+      "kind": "checker-false-positive",
+      "issue": "A LaTeX bracket expression was misread as a Markdown link.",
+      "fix": "Skip math and code before link matching; regression test added."
+    },
+    {
+      "kind": "test-fixture",
+      "issue": "An initial export test fixture omitted graph configuration.",
+      "fix": "Include realistic graph configuration in the fixture; rerun passed."
+    },
+    {
+      "kind": "publication-tool-runtime",
+      "issue": "Manifest success path failed because a refactored output path variable was not initialized; check refused the missing manifest.",
+      "fix": "Restore output path and add an end-to-end registered-package and tamper test; no upload before the real checks passed."
+    },
+    {
+      "kind": "privacy-checker-false-positive",
+      "issue": "The path detector matched its own Unix-path regular expression.",
+      "fix": "Split the literal prefix and verify both legitimate scanner code and actual personal-path rejection in a regression test."
+    }
+  ],
+  "not_executed": [
+    "H1 approval",
+    "G5 cross-paper integration",
+    "H2 approval",
+    "G6 outline",
+    "H3 approval",
+    "G7 HTML",
+    "G8 browser and visual tests",
+    "G9 final publication review",
+    "G10 deployment"
+  ]
+}

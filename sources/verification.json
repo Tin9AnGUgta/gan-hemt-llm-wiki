@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-11-18",
+  "note": "檢索索引命中與實際開啟成功分開記錄；未查到不是保密或未出版的證明。未確認任何 PDF 再散布授權。",
+  "items": [
+    {
+      "source_id": "P01",
+      "candidate_official_url": "https://ir.lib.ncu.edu.tw/handle/987654321/81439",
+      "status": "official_search_index_match_direct_fetch_timeout",
+      "indexed_record_date": "2019-07-24"
+    },
+    {
+      "source_id": "P02",
+      "official_source_url": "https://ir.lib.ncu.edu.tw/handle/987654321/96324",
+      "status": "record_opened_title_author_verified",
+      "record_date": "2024-11-22"
+    },
+    {
+      "source_id": "P03",
+      "candidate_official_url": "https://ir.lib.ncu.edu.tw/handle/987654321/99427",
+      "status": "official_search_index_match_direct_fetch_unavailable",
+      "indexed_record_date": "2026-01-14",
+      "note": "封面日期為 2025-12；兩種日期分別保留。"
+    },
+    {
+      "source_id": "P04",
+      "candidate_official_url": "https://ir.lib.ncu.edu.tw/handle/987654321/99429",
+      "status": "official_search_index_match_direct_fetch_403",
+      "indexed_record_date": "2026-01-14"
+    },
+    {
+      "source_id": "P05",
+      "status": "not_found_in_current_official_search",
+      "publication_status": "unknown"
+    }
+  ]
+}

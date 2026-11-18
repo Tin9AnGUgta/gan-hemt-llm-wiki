@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "files": {
+    ".github/workflows/check.yml": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    ".gitignore": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "AGENTS.md": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "README.md": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "docs/README.md": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "publication/README.md": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "publication/bootstrap-review.json": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "publication/registrations.json": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "records/20261118T101701464577Z/events.jsonl": {
+      "origin": "status_only_generated",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "records/20261118T101701464577Z/summary.json": {
+      "origin": "status_only_generated",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "records/20261118T102144365841Z/events.jsonl": {
+      "origin": "status_only_generated",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "records/20261118T102144365841Z/summary.json": {
+      "origin": "status_only_generated",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "records/README.md": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "records/implementation-checks.json": {
+      "origin": "status_only_generated",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "records/latest.json": {
+      "origin": "status_only_generated",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "report/reflection.md": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "requirements.txt": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "slides/README.md": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "sources/catalog.json": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "sources/external.json": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "sources/verification.json": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "templates/concept.md": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "templates/derivation.md": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "templates/paper.md": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "tests/test_graph.py": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "tools/wiki.py": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "wiki/comparisons/README.md": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "wiki/concepts/README.md": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "wiki/derivations/README.md": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "wiki/index.md": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "wiki/learning-path.md": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "wiki/log.md": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "wiki/methods/README.md": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "wiki/papers/README.md": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "workflow/README.md": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "workflow/graph.json": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    "workflow/node-contracts.md": {
+      "origin": "project_authored_or_bibliographic_metadata",
+      "release": "eligible_project_authored",
+      "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    }
+  }
+}

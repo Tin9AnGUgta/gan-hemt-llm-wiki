@@ -1,0 +1,15 @@
+{"at": "2026-11-18T10:17:01+00:00", "node": "run", "action": "created"}
+{"at": "2026-11-18T10:17:04+00:00", "node": "G0", "action": "started", "attempt": 1}
+{"at": "2026-11-18T10:17:05+00:00", "node": "G0", "action": "passed", "attempt": 1, "output_count": 7, "open_items_count": 0}
+{"at": "2026-11-18T10:17:05+00:00", "node": "G1:P01", "action": "started", "attempt": 1}
+{"at": "2026-11-18T10:17:12+00:00", "node": "G1:P01", "action": "passed", "attempt": 1, "output_count": 4, "open_items_count": 4}
+{"at": "2026-11-18T10:17:12+00:00", "node": "G1:P02", "action": "started", "attempt": 1}
+{"at": "2026-11-18T10:17:20+00:00", "node": "G1:P02", "action": "passed", "attempt": 1, "output_count": 4, "open_items_count": 4}
+{"at": "2026-11-18T10:17:20+00:00", "node": "G1:P03", "action": "started", "attempt": 1}
+{"at": "2026-11-18T10:17:24+00:00", "node": "G1:P03", "action": "passed", "attempt": 1, "output_count": 4, "open_items_count": 0}
+{"at": "2026-11-18T10:17:24+00:00", "node": "G1:P04", "action": "started", "attempt": 1}
+{"at": "2026-11-18T10:17:30+00:00", "node": "G1:P04", "action": "passed", "attempt": 1, "output_count": 4, "open_items_count": 13}
+{"at": "2026-11-18T10:17:30+00:00", "node": "G1:P05", "action": "started", "attempt": 1}
+{"at": "2026-11-18T10:17:34+00:00", "node": "G1:P05", "action": "passed", "attempt": 1, "output_count": 4, "open_items_count": 0}
+{"at": "2026-11-18T10:21:11+00:00", "node": "G2:P01", "action": "started", "attempt": 1}
+{"at": "2026-11-18T10:21:13+00:00", "node": "G2:P01", "action": "failed", "attempt": 1, "reason_code": "unreadable_page"}

@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "note": "Allowlist plus hashes; not a legal determination. Research/source permissions need separate review.",
+  "files": {
+    ".github/workflows/check.yml": {
+      "sha256": "3efd30c9544f39661fe7c95ae94edac62da2b9b21483589512ebed23670341e6",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    ".gitignore": {
+      "sha256": "8c61264660200be86ddc98232855988ee61b80800606d931b2768025fcd52de4",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "AGENTS.md": {
+      "sha256": "44f66c1bbf7e83c4f0eb3f2a2b08769d05994fa94e645f2c8df2d492f73df8fc",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "docs/README.md": {
+      "sha256": "566c4954e5bd012e2160ac70563f6e46c900411d042d2ed138bf6e1ffcc96638",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "publication/bootstrap-review.json": {
+      "sha256": "aee30c76c5e5a490e94b11aeee2a584cf489e490a6e2bd0d71f9b2f6264dc251",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "publication/README.md": {
+      "sha256": "b792ef458fb2257f18550adb6247d0c472992c067929b63fa16bc7c35542cb23",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "publication/registrations.json": {
+      "sha256": "526e6ed653dbd47b87c2d9dcaeb9661e7e8af792a9a423403971723480396d30",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "README.md": {
+      "sha256": "db190dfcb4049235b2c22d02b2ec2ec44f3c0e71e5aed58b815fad469ec3313c",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "records/20261118T101701464577Z/events.jsonl": {
+      "sha256": "5294f6b45840c7d40c7e4eae2f8a44df68d106a911e60efb680b01ea2f078e42",
+      "origin": "status_only_generated"
+    },
+    "records/20261118T101701464577Z/summary.json": {
+      "sha256": "2ea4d239f2c40146f0b7f0da9c9e700f1ded8e09ed73623d90c1b5a431275f8d",
+      "origin": "status_only_generated"
+    },
+    "records/20261118T102144365841Z/events.jsonl": {
+      "sha256": "8adf40f34bdc4b4f4e6d83271621b368174179ab84102b9736b29cb7269e832d",
+      "origin": "status_only_generated"
+    },
+    "records/20261118T102144365841Z/summary.json": {
+      "sha256": "feca4746dec57daaf14a2c04ec42acd5bd1e133f3a31b875e3b25fb59d9f4dfe",
+      "origin": "status_only_generated"
+    },
+    "records/implementation-checks.json": {
+      "sha256": "93d25ebb55372d848914fa4021d0583e7dd61052eee8c0e23409833268c09787",
+      "origin": "status_only_generated"
+    },
+    "records/latest.json": {
+      "sha256": "53d8ec089879d65efc0b19107406cb014fa7dd1a3e649350ee2b689a82b16f92",
+      "origin": "status_only_generated"
+    },
+    "records/README.md": {
+      "sha256": "7ce33b7d890f8fde9ca3a678028bb501c798bf7b0ccb4364cb4937fbe51847b4",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "report/reflection.md": {
+      "sha256": "c2ee4d647923b8aaee733b08fe9d5c18e89e8a1998a7faffa7ea090592a5e93c",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "requirements.txt": {
+      "sha256": "6b9d3af92e9bdb2317e9ac845c8349f4b6a44b7d05e628ea717938589b583fc2",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "slides/README.md": {
+      "sha256": "f53614efe62790712144104b20da95844a36301bc9890fa3d1fd42f7a1ec3756",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "sources/catalog.json": {
+      "sha256": "f8f8a3660042f9248148d2cd390a976f7788aadc4ae7fba0fd7c9d2c0787c93a",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "sources/external.json": {
+      "sha256": "9e47a4f01d80b11613df1918c93d27414a07b4a7471f133a3280b88252aaea51",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "sources/verification.json": {
+      "sha256": "f53c5ee2b3b877e5cbe4c7d974e5a6a363fd0a403c4559b7e791a43ef5bb3901",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "templates/concept.md": {
+      "sha256": "8e1ce6ad1814151a8fc0adb71e6f7f4a43342cc95d6565dc0689399a287175c4",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "templates/derivation.md": {
+      "sha256": "63dfd5a47ea69ad8ee3862689bd9df431cd72b16e5d59151e7c90efb1ea54ea9",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "templates/paper.md": {
+      "sha256": "d027f5e3ac9fd271d9632b0351b5628d860247399f7434f3f42b98dd3cb88971",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "tests/test_graph.py": {
+      "sha256": "e0f36cf901e4a2e98881f3ff99768129a79ba70f04d88b80e84448d3a41a914c",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "tools/wiki.py": {
+      "sha256": "01abc9ed09a6a156e4c3c78e575951c878d896d64368a990a86cd9233916ed9a",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "wiki/comparisons/README.md": {
+      "sha256": "d68095571f295fb2e6de030c064e438f3cc2242b281303505b1d3c0f179a5a2b",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "wiki/concepts/README.md": {
+      "sha256": "28f5d05e249c6eb0b9990de7255ac9d0d3d383eadbb213cab58173611124863a",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "wiki/derivations/README.md": {
+      "sha256": "df7e14fadc5cb4525ecf8c23b567a95cf1ae45c2d279e17dc59ce7808bda43c4",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "wiki/index.md": {
+      "sha256": "fa44cde9cb05951326e76e6b7716cb1c1c2bb8fc842fe1b0172f36fc69ab4410",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "wiki/learning-path.md": {
+      "sha256": "27a77aa70373b140febdb6723ca83fa1bf9d6836ec893af73535be8e1d8830f1",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "wiki/log.md": {
+      "sha256": "9342b394545343b34b52b48cc1da8659d563d785bc0e64903735128d5b4b1c7b",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "wiki/methods/README.md": {
+      "sha256": "04e90660ed0f287aa7a5e63c23f515cc9ae7ba4317777155dcd3efcae100eaf4",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "wiki/papers/README.md": {
+      "sha256": "f1a950de5eca4a2bd3354a4ce17fc6f17626e7c612480be1e9f2b76cc18c8933",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "workflow/graph.json": {
+      "sha256": "21eff3b5af9f51cc86a2657e9c9ad1d8260f3be4c17db6965a54b680b714e24a",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "workflow/node-contracts.md": {
+      "sha256": "b605d216b47d37655b0a541b4ab55bc91cf38ecb15b8efa22db125be8a4540cd",
+      "origin": "project_authored_or_bibliographic_metadata"
+    },
+    "workflow/README.md": {
+      "sha256": "42a1c3eb91635b50ef337e17fc2acfc542c8f6d14a5cc6cc8dd7e2fb5ce67d6e",
+      "origin": "project_authored_or_bibliographic_metadata"
+    }
+  }
+}
