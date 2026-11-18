@@ -54,3 +54,9 @@
 {"at": "2026-11-18T16:07:14+00:00", "node": "G4:P01", "action": "started", "attempt": 3}
 {"at": "2026-11-18T16:07:16+00:00", "node": "G4:P01", "action": "passed", "attempt": 3, "output_count": 26, "open_items_count": 11}
 {"at": "2026-11-18T16:07:18+00:00", "node": "H1", "action": "revision_submitted", "output_count": 5}
+{"at": "2026-11-18T16:38:10+00:00", "node": "G4:P01", "action": "invalidated", "reason_code": "recorded_output_changed"}
+{"at": "2026-11-18T16:38:10+00:00", "node": "G4:P02", "action": "invalidated", "reason_code": "recorded_output_changed"}
+{"at": "2026-11-18T16:38:10+00:00", "node": "G4:P03", "action": "invalidated", "reason_code": "recorded_output_changed"}
+{"at": "2026-11-18T16:38:10+00:00", "node": "G4:P04", "action": "invalidated", "reason_code": "recorded_output_changed"}
+{"at": "2026-11-18T16:38:10+00:00", "node": "G4:P05", "action": "invalidated", "reason_code": "recorded_output_changed"}
+{"at": "2026-11-18T16:38:10+00:00", "node": "H1", "action": "rollout_authorized"}

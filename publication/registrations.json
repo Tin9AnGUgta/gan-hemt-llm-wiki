@@ -215,6 +215,21 @@
       "origin": "status_only_generated",
       "release": "eligible_project_authored",
       "basis": "Sanitized actual feedback, scope and check counts only; no research text, images or private paths."
+    },
+    "records/20261118T163811298808Z/events.jsonl": {
+      "origin": "status_only_generated",
+      "release": "eligible_project_authored",
+      "basis": "Sanitized workflow status, source typography and check counts; no paper content, private paths or source images."
+    },
+    "records/20261118T163811298808Z/summary.json": {
+      "origin": "status_only_generated",
+      "release": "eligible_project_authored",
+      "basis": "Sanitized workflow status, source typography and check counts; no paper content, private paths or source images."
+    },
+    "records/source-font-rollout.json": {
+      "origin": "status_only_generated",
+      "release": "eligible_project_authored",
+      "basis": "Sanitized workflow status, source typography and check counts; no paper content, private paths or source images."
     }
   }
 }

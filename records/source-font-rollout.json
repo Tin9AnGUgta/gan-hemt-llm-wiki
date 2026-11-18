@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-19",
+  "run_id": "20261118T163811298808Z",
+  "predecessor_run_id": "20261118T102144365841Z",
+  "authorization": "User approved P01 teaching style as standard for other four papers, with smaller source text. Not whole-H1 approval.",
+  "actual_changes": {
+    "four_other_paper_learning_layers_added": 4,
+    "research_text_and_formula_sequence_retained": true,
+    "P01_research_level3_unchanged": true,
+    "other_unchanged_notes": 12,
+    "HTML_body_px": 18,
+    "HTML_source_px": 14,
+    "Markdown_font_markup_added": false
+  },
+  "checks": {
+    "browser_pages": 5,
+    "math_segments_rendered": 58,
+    "raw_latex_matches": 58,
+    "math_errors": 0,
+    "broken_images": 0,
+    "citation_font_all_pages": "14px",
+    "Obsidian_app": "not_tested",
+    "table_math_compatibility_reviews": 7,
+    "research_full_certification": false
+  },
+  "workflow": {
+    "upstream_checkpoint_nodes_hash_verified_and_reused": 16,
+    "new_G4_results": 5,
+    "prior_attempts_not_reset": true,
+    "H1": "awaiting_review",
+    "G5_H2_attempts": 0
+  },
+  "privacy": "Private notes, source fragments and screenshots are not exported; public record contains status and counts only."
+}

@@ -1,7 +1,7 @@
 {
-  "run_id": "20261118T102144365841Z",
+  "run_id": "20261118T163811298808Z",
   "graph_version": "1.1.0",
-  "status": "H1_rejected_revision_awaiting_review",
+  "status": "awaiting_H1_after_authorized_rollout",
   "sources": 5,
   "pdf_pages_registered": 508,
   "private_first_pass_notes": 5,
@@ -12,9 +12,14 @@
   "H2": "pending",
   "H3": "pending",
   "pages_deployed": false,
-  "H1_last_user_decision": "reject",
-  "H1_revision": "H1-R2",
+  "H1_last_user_decision": "none_in_current_run",
+  "H1_revision": "three-level-rollout-source-font",
   "H1_revision_approved": false,
-  "G4_P01_attempt": 3,
-  "G5": "pending"
+  "G4_P01_attempt": 1,
+  "G5": "pending",
+  "previous_H1_decision": "reject",
+  "teaching_format_rollout_authorized": true,
+  "body_font_px": 18,
+  "source_font_px": 14,
+  "predecessor_run_id": "20261118T102144365841Z"
 }

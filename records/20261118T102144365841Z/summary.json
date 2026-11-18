@@ -69,27 +69,27 @@
       "attempts": 1
     },
     "G4:P01": {
-      "status": "passed",
+      "status": "stale",
       "attempts": 3
     },
     "G4:P02": {
-      "status": "passed",
+      "status": "stale",
       "attempts": 1
     },
     "G4:P03": {
-      "status": "passed",
+      "status": "stale",
       "attempts": 1
     },
     "G4:P04": {
-      "status": "passed",
+      "status": "stale",
       "attempts": 1
     },
     "G4:P05": {
-      "status": "passed",
+      "status": "stale",
       "attempts": 1
     },
     "H1": {
-      "status": "awaiting_review",
+      "status": "stale",
       "attempts": 0
     },
     "G5": {
