@@ -15,6 +15,14 @@
       "url": "https://fab.cba.mit.edu/classes/862.22/notes/semiconductor_materials_devices.pdf",
       "status": "opened",
       "use": "低場漂移、遷移率及導電率關係，不重製圖表"
+    },
+    {
+      "id": "E03",
+      "title": "University Physics Volume 2, 9.3 Resistivity and Resistance",
+      "author": "OpenStax",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/9-3-resistivity-and-resistance",
+      "status": "opened",
+      "use": "uniform-material resistance and geometry; independently explained, no copied figure"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "run_id": "20261118T102144365841Z",
   "graph_version": "1.1.0",
-  "status": "awaiting_H1",
+  "status": "H1_rejected_revision_awaiting_review",
   "sources": 5,
   "pdf_pages_registered": 508,
   "private_first_pass_notes": 5,
@@ -11,5 +11,10 @@
   "H1": "awaiting_review",
   "H2": "pending",
   "H3": "pending",
-  "pages_deployed": false
+  "pages_deployed": false,
+  "H1_last_user_decision": "reject",
+  "H1_revision": "H1-R1",
+  "H1_revision_approved": false,
+  "G4_P01_attempt": 2,
+  "G5": "pending"
 }

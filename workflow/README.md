@@ -45,6 +45,8 @@ python tools/wiki.py review H1 --decision approve --statement "使用者實際�
 
 ## 流程
 
+H1 實讀失敗後的本次試改依 [H1-R1 修訂契約](H1-R1.md)。`python tools/wiki.py submit H1 --result PRIVATE_PACKAGE` 可保留原否決並重新提交修訂包，停在 awaiting_review；不解除 G5 或 H2。
+
 ```mermaid
 flowchart TD
   A[G0 環境與來源] --> B[G1 分頁解析]

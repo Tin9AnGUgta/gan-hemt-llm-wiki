@@ -190,6 +190,26 @@
       "origin": "project_authored",
       "release": "eligible_project_authored",
       "basis": "Project-owned line-ending configuration; no third-party content."
+    },
+    "tools/math_check.py": {
+      "origin": "project_authored_or_status_only",
+      "release": "eligible_project_authored",
+      "basis": "Project-authored checking code, workflow rules or sanitized actual-run outcomes; no paper text, figures, private paths or research draft."
+    },
+    "tests/test_math.py": {
+      "origin": "project_authored_or_status_only",
+      "release": "eligible_project_authored",
+      "basis": "Project-authored checking code, workflow rules or sanitized actual-run outcomes; no paper text, figures, private paths or research draft."
+    },
+    "workflow/H1-R1.md": {
+      "origin": "project_authored_or_status_only",
+      "release": "eligible_project_authored",
+      "basis": "Project-authored checking code, workflow rules or sanitized actual-run outcomes; no paper text, figures, private paths or research draft."
+    },
+    "records/H1-R1.json": {
+      "origin": "project_authored_or_status_only",
+      "release": "eligible_project_authored",
+      "basis": "Project-authored checking code, workflow rules or sanitized actual-run outcomes; no paper text, figures, private paths or research draft."
     }
   }
 }

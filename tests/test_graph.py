@@ -27,6 +27,28 @@ class GraphTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Human gates"):
             wiki.begin(self.run, self.state, "H1")
 
+    def test_rejected_gate_resubmission_keeps_downstream_closed(self):
+        for sid in ["P01", "P02", "P03", "P04", "P05"]:
+            self.state["nodes"]["G4:" + sid].update(status="passed", outputs={})
+        rejection = self.run / "rejected.json"
+        wiki.write_json(rejection, {"decision": "reject", "fixture": True})
+        self.state["nodes"]["H1"].update(status="stale", outputs={str(rejection): wiki.digest(rejection)})
+        draft = self.run / "revision.md"
+        draft.write_bytes(b"test fixture only\n")
+        package = self.run / "package.json"
+        wiki.write_json(package, {"revision_id": "test-only", "outputs": [str(draft)]})
+        with patch.object(wiki, "allowed_artifact", side_effect=lambda p: Path(p)):
+            wiki.submit_review(self.run, self.state, "H1", package)
+        self.assertEqual(self.state["nodes"]["H1"]["status"], "awaiting_review")
+        self.assertIn(str(rejection), self.state["nodes"]["H1"]["outputs"])
+        self.assertEqual(wiki.read_json(rejection)["decision"], "reject")
+        with self.assertRaisesRegex(ValueError, "Dependencies not passed"):
+            wiki.begin(self.run, self.state, "G5")
+
+    def test_resubmission_requires_completed_dependencies(self):
+        with self.assertRaisesRegex(ValueError, "not ready"):
+            wiki.submit_review(self.run, self.state, "H1", self.run / "not-read.json")
+
     def test_equation_labels_preserve_decimal_suffix_observed_in_P01(self):
         text = "formula (3-4.1), reference (3-6.3), wide parentheses （2－8）"
         self.assertEqual(wiki.equation_labels(text), ["3-4.1", "3-6.3", "2-8"])

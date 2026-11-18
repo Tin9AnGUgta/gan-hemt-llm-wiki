@@ -252,6 +252,29 @@ def automatic_result(run, state, node, outputs, scope, open_items=None):
     complete(run, state, node, path)
 
 
+def submit_review(run, state, node, package_path):
+    """Present a revised package; this never records user approval."""
+    definition = definitions()[node]
+    if definition["kind"] != "human":
+        raise ValueError("submit is only for human gates")
+    if state["nodes"][node]["status"] == "passed":
+        raise ValueError("Invalidate changed inputs before resubmitting an approved gate")
+    if any(state["nodes"][dep]["status"] != "passed" for dep in definition["dependencies"]):
+        raise ValueError("Review inputs are not ready")
+    package_path = allowed_artifact(package_path)
+    package = read_json(package_path)
+    if not package.get("revision_id") or not package.get("outputs"):
+        raise ValueError("Review package needs revision_id and actual outputs")
+    outputs = [allowed_artifact(p) for p in package["outputs"]] + [package_path]
+    record = state["nodes"][node]
+    # Preserve prior user decisions and their files, including rejections.
+    record.setdefault("outputs", {}).update({str(p): digest(p) for p in outputs})
+    record.update(status="awaiting_review", submission_revision=package["revision_id"],
+                  deps_snapshot={dep: state["nodes"][dep]["outputs"] for dep in definition["dependencies"]})
+    event(run, state, node, "revision_submitted", output_count=len(outputs))
+    save(run, state)
+
+
 def run_ingest(run, state):
     from pypdf import PdfReader
     root = private_root()
@@ -440,7 +463,7 @@ def export_run(run, state):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=["start", "ingest", "status", "begin", "record", "fail", "invalidate", "review", "check", "manifest", "export"])
+    parser.add_argument("command", choices=["start", "ingest", "status", "begin", "record", "fail", "invalidate", "review", "submit", "check", "manifest", "export"])
     parser.add_argument("node", nargs="?")
     parser.add_argument("--result")
     parser.add_argument("--code", default="unspecified")
@@ -496,6 +519,8 @@ def main():
         save(run, state)
     elif args.command == "fail":
         print("Routed to:", fail_node(run, state, args.node, args.code))
+    elif args.command == "submit":
+        submit_review(run, state, args.node, args.result)
     elif args.command == "review":
         definition = definitions()[args.node]
         if definition["kind"] != "human" or not args.statement or not args.reference or not args.decision:
