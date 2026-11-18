@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-19",
+  "run_id": "20261118T163811298808Z",
+  "H1": "passed_by_actual_user_response",
+  "G5": "passed",
+  "H2": "awaiting_review",
+  "G6_attempts": 0,
+  "outputs": {
+    "private_integration_pages": 6,
+    "source_claim_records": 18,
+    "condition_aware_metric_records": 10,
+    "unresolved_or_caveat_items": 15,
+    "knowledge_relationship_figure": "self-authored private draft",
+    "backlinks": "generated from actual relative Markdown links"
+  },
+  "checks": {
+    "approved_paper_notes_hashes_unchanged": 5,
+    "wiki_Markdown_pages": 23,
+    "all_reachable_from_index": true,
+    "all_can_return_to_index": true,
+    "HTML_preview_pages": 24,
+    "math_segments_rendered": 175,
+    "raw_LaTeX_exact_matches": 175,
+    "math_errors": 0,
+    "broken_images": 0,
+    "page_overflows": 0,
+    "body_px": 18,
+    "source_px": 14,
+    "Obsidian_app": "not_tested"
+  },
+  "actual_check_problem": {
+    "initial_image_flags": 3,
+    "cause": "Image readiness was checked before SVG load finished",
+    "repair": "Await image load or error in addition to MathJax readiness",
+    "after_retest_image_flags": 0,
+    "formal_node_failure": false,
+    "event": "check_failed"
+  },
+  "academic_limits": [
+    "No cross-paper performance ranking",
+    "No asserted sample/process lineage or unsupported causal links",
+    "Original formula uncertainties retained",
+    "Not full-paper academic certification"
+  ],
+  "publication": "Private research pages, images and full execution evidence excluded; status-only public export."
+}

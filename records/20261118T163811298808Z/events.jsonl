@@ -58,3 +58,9 @@
 {"at": "2026-11-18T16:38:14+00:00", "node": "G4:P05", "action": "started", "attempt": 1}
 {"at": "2026-11-18T16:38:14+00:00", "node": "G4:P05", "action": "passed", "attempt": 1, "output_count": 13, "open_items_count": 5}
 {"at": "2026-11-18T16:38:14+00:00", "node": "H1", "action": "revision_submitted", "output_count": 5}
+{"at": "2026-11-18T17:09:21+00:00", "node": "H1", "action": "user_approved"}
+{"at": "2026-11-18T17:09:21+00:00", "node": "G5", "action": "started", "attempt": 1}
+{"at": "2026-11-18T17:19:50+00:00", "node": "G5", "action": "check_failed", "reason_code": "other"}
+{"at": "2026-11-18T17:23:26+00:00", "node": "G5", "action": "passed", "attempt": 1, "output_count": 59, "open_items_count": 5}
+{"at": "2026-11-18T17:23:27+00:00", "node": "H2", "action": "awaiting_user_review"}
+{"at": "2026-11-18T17:23:27+00:00", "node": "H2", "action": "revision_submitted", "output_count": 5}

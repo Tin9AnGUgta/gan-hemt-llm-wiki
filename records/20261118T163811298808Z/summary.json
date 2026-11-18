@@ -89,15 +89,15 @@
       "attempts": 1
     },
     "H1": {
-      "status": "awaiting_review",
+      "status": "passed",
       "attempts": 0
     },
     "G5": {
-      "status": "pending",
-      "attempts": 0
+      "status": "passed",
+      "attempts": 1
     },
     "H2": {
-      "status": "pending",
+      "status": "awaiting_review",
       "attempts": 0
     },
     "G6": {

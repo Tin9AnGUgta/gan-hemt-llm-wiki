@@ -15,7 +15,7 @@
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "AGENTS.md": {
-      "sha256": "36d93111d162c4d510e5a5ac9ec6d2689fcfa631bfd5e83143e6cf6cf747d87b",
+      "sha256": "ef85138b27be39af3df972179a79543fff349f4a6bd1e50cbac84b24b8347dc3",
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "docs/README.md": {
@@ -31,11 +31,11 @@
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "publication/registrations.json": {
-      "sha256": "bd8e8a47dec21f746623cd664b29f7fb5cddf34fe604e10891c1a20fd1f2df38",
+      "sha256": "7a548db24bf5270fe0dfd29f0723653b001efb433be362fd125f25c5819d2704",
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "README.md": {
-      "sha256": "520cc2a02db4ab86eb658029567a621110ebabd6ad1015148344a6e6e39b4a36",
+      "sha256": "77bb9821b045f9d4453b2b0a31500a9a7ea58a0a9a708e73c10bea53d515328c",
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "records/20261118T101701464577Z/events.jsonl": {
@@ -55,11 +55,11 @@
       "origin": "status_only_generated"
     },
     "records/20261118T163811298808Z/events.jsonl": {
-      "sha256": "85273a017a2ed5153203bf21f14aedcf148353086d3ff7f89b72f6db16cc3c0c",
+      "sha256": "2178682d9b7f6f3545ab7a3d6f9841e6f8b368ed9b237b690481adf4b5bf33df",
       "origin": "status_only_generated"
     },
     "records/20261118T163811298808Z/summary.json": {
-      "sha256": "95906c9e52e2289ec269c6bffb8f5c89d868fa321d827334330bef1f76a1406a",
+      "sha256": "3c3489cefe939f3c6b6937ce52de78aac1856660ed801e96a0d62da8d38f0e5c",
       "origin": "status_only_generated"
     },
     "records/H1-R1.json": {
@@ -70,12 +70,16 @@
       "sha256": "19c577c7e61ed8b5b1948113adeabfda15bc62e39055d95f35e6dc770f5b96b8",
       "origin": "status_only_generated"
     },
+    "records/H2-integration.json": {
+      "sha256": "5de1f2cce48e9060c57a433f6898e4e7f6f0850196a8715b47f4d32a8c693b5b",
+      "origin": "status_only_generated"
+    },
     "records/implementation-checks.json": {
       "sha256": "9e5c4bb896923314ae535161605593fbfa784dc6a796edbfd6305727ac01d995",
       "origin": "status_only_generated"
     },
     "records/latest.json": {
-      "sha256": "6ced8068cc169b53fe8a0b0f2faeac25d153329f9a1d25529bd372abce8f8493",
+      "sha256": "d00851fdf2ae15fdbbcfba0ed0104aeb3f8df3336e3995340c7ae4964c48ccd7",
       "origin": "status_only_generated"
     },
     "records/README.md": {
@@ -87,7 +91,7 @@
       "origin": "status_only_generated"
     },
     "report/reflection.md": {
-      "sha256": "debfc287c27032a377836b9f7db3d0c62ca0ea4f81ebd6b470a35ecbc7cb8453",
+      "sha256": "fd1c29c3892ff493b6ddb38aabc20a0dfcffe8226d93a22b112daca23967d91a",
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "requirements.txt": {

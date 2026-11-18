@@ -230,6 +230,11 @@
       "origin": "status_only_generated",
       "release": "eligible_project_authored",
       "basis": "Sanitized workflow status, source typography and check counts; no paper content, private paths or source images."
+    },
+    "records/H2-integration.json": {
+      "origin": "status_only_generated",
+      "release": "eligible_project_authored",
+      "basis": "Actual human-gate status and sanitized quality counts only; no paper text, images, private paths or conversation transcript."
     }
   }
 }
