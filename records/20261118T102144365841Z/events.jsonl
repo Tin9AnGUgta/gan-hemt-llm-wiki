@@ -49,3 +49,8 @@
 {"at": "2026-11-18T15:16:26+00:00", "node": "G4:P01", "action": "started", "attempt": 2}
 {"at": "2026-11-18T15:16:28+00:00", "node": "G4:P01", "action": "passed", "attempt": 2, "output_count": 17, "open_items_count": 9}
 {"at": "2026-11-18T15:16:30+00:00", "node": "H1", "action": "revision_submitted", "output_count": 6}
+{"at": "2026-11-18T16:06:50+00:00", "node": "G4:P01", "action": "invalidated", "reason_code": "recorded_output_changed"}
+{"at": "2026-11-18T16:06:50+00:00", "node": "H1", "action": "user_feedback_recorded"}
+{"at": "2026-11-18T16:07:14+00:00", "node": "G4:P01", "action": "started", "attempt": 3}
+{"at": "2026-11-18T16:07:16+00:00", "node": "G4:P01", "action": "passed", "attempt": 3, "output_count": 26, "open_items_count": 11}
+{"at": "2026-11-18T16:07:18+00:00", "node": "H1", "action": "revision_submitted", "output_count": 5}

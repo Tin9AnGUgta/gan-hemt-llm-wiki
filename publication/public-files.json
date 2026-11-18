@@ -31,11 +31,11 @@
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "publication/registrations.json": {
-      "sha256": "76f156bcf4b0fb73663cfcdce1df68b7ee66b0a45fa53671693936bfd69c40e2",
+      "sha256": "f286ce5647383b664a2a1c06858fe182b3875cf06db83d14c897020debceb1c1",
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "README.md": {
-      "sha256": "f2cd1a2bee8ad729ec9273fab344891adf24efbe0d368a2e258b5b043e54917f",
+      "sha256": "787679d5d4ae354153596f77066f80d9f1be73060b1dd4ca838d64eef7a6237d",
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "records/20261118T101701464577Z/events.jsonl": {
@@ -47,23 +47,27 @@
       "origin": "status_only_generated"
     },
     "records/20261118T102144365841Z/events.jsonl": {
-      "sha256": "da580a6ceea7357b43528e82b804cf13425c2a498ceff83f376b4d54ca29c68c",
+      "sha256": "d9669bd721597e17c35f5789e6a073e39f4ffa764aa34bf03f250a925c0d40a4",
       "origin": "status_only_generated"
     },
     "records/20261118T102144365841Z/summary.json": {
-      "sha256": "1d22a4f6b9b1458894139d1d33ca9846fb7ff6c30ab9afae88ac75dc1c6c2e85",
+      "sha256": "3c59e795d20424e460a65bfce46cb02dbf489cb96203d518334af37c54afe324",
       "origin": "status_only_generated"
     },
     "records/H1-R1.json": {
       "sha256": "2e93d81a5d40c513c3aac35379ffb84a6b83403d4d3e083243b936e80917e668",
       "origin": "project_authored_or_status_only"
     },
+    "records/H1-R2.json": {
+      "sha256": "19c577c7e61ed8b5b1948113adeabfda15bc62e39055d95f35e6dc770f5b96b8",
+      "origin": "status_only_generated"
+    },
     "records/implementation-checks.json": {
       "sha256": "9e5c4bb896923314ae535161605593fbfa784dc6a796edbfd6305727ac01d995",
       "origin": "status_only_generated"
     },
     "records/latest.json": {
-      "sha256": "fcd1761b92e6148d5d79db0e5d7793e2334141981bbab9b7d15eb00bf3f57f2d",
+      "sha256": "a83e723c970f734e6011648e0973f9619e241c372f12413e5e3ff732e4a39d1c",
       "origin": "status_only_generated"
     },
     "records/README.md": {
@@ -71,7 +75,7 @@
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "report/reflection.md": {
-      "sha256": "44f6d0bf5d9eb8cb9f485f48ccfbd756100601bbbd70268958d5f2bc6c570952",
+      "sha256": "920e8de7a9042c03b7ab131a9261145a4ee295c7531cb7ac5f228505b7e6e10d",
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "requirements.txt": {

@@ -210,6 +210,11 @@
       "origin": "project_authored_or_status_only",
       "release": "eligible_project_authored",
       "basis": "Project-authored checking code, workflow rules or sanitized actual-run outcomes; no paper text, figures, private paths or research draft."
+    },
+    "records/H1-R2.json": {
+      "origin": "status_only_generated",
+      "release": "eligible_project_authored",
+      "basis": "Sanitized actual feedback, scope and check counts only; no research text, images or private paths."
     }
   }
 }
