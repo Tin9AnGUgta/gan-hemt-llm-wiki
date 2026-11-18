@@ -28,7 +28,8 @@ def read_json(path):
 def write_json(path, value):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    with path.open("w", encoding="utf-8", newline="\n") as stream:
+        stream.write(json.dumps(value, ensure_ascii=False, indent=2) + "\n")
 
 
 def digest(path):
@@ -358,7 +359,7 @@ def public_errors(repo=REPO):
         if path.suffix.lower() in {".pdf", ".pem", ".key", ".zip"}:
             errors.append("Forbidden public artifact: " + name)
             continue
-        if path.suffix.lower() not in {".md", ".json", ".jsonl", ".py", ".txt", ".yml", ".yaml", ".html", ".css", ".js", ".svg"} and name != ".gitignore":
+        if path.suffix.lower() not in {".md", ".json", ".jsonl", ".py", ".txt", ".yml", ".yaml", ".html", ".css", ".js", ".svg"} and name not in {".gitignore", ".gitattributes"}:
             errors.append("Unreviewed file type: " + name)
             continue
         try:
@@ -366,6 +367,8 @@ def public_errors(repo=REPO):
         except UnicodeError:
             errors.append("Not UTF-8 text: " + name)
             continue
+        if b"\r\n" in path.read_bytes():
+            errors.append("Public text must use LF line endings: " + name)
         # Split the Unix prefix so the scanner does not mistake its own regex for a personal path.
         sensitive_pattern = r"[A-Za-z]:[\\/]Users[\\/]|" + "/" + "home" + "/" + r"[^/]+/|-----BEGIN [A-Z ]*PRIVATE KEY-----|gh[pousr]_[A-Za-z0-9]{20,}"
         if re.search(sensitive_pattern, text):
@@ -431,7 +434,7 @@ def export_run(run, state):
             safe["reason_code"] = item["reason_code"] if item["reason_code"] in known else "other"
         safe_events.append(safe)
     target.mkdir(parents=True, exist_ok=True)
-    (target / "events.jsonl").write_text("".join(json.dumps(item, ensure_ascii=False) + "\n" for item in safe_events), encoding="utf-8")
+    (target / "events.jsonl").write_text("".join(json.dumps(item, ensure_ascii=False) + "\n" for item in safe_events), encoding="utf-8", newline="\n")
     print("Exported status-only public run summary. Refresh manifest and run check before publishing.")
 
 

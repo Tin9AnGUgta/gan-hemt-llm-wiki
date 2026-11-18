@@ -2,7 +2,7 @@
   "checked_at": "2026-11-18T10:38:43+00:00",
   "scope": "Engineering and first-pass preparation only; not full academic certification or G8/G9 completion.",
   "unit_tests": {
-    "passed": 14,
+    "passed": 15,
     "failed": 0,
     "command": "python -B -m unittest discover -s tests -v"
   },
@@ -37,6 +37,12 @@
       "kind": "privacy-checker-false-positive",
       "issue": "The path detector matched its own Unix-path regular expression.",
       "fix": "Split the literal prefix and verify both legitimate scanner code and actual personal-path rejection in a regression test."
+    },
+    {
+      "kind": "remote-ci-line-endings",
+      "issue": "Linux CI passed unit tests but failed public hashes because Windows-generated CRLF was normalized during API serialization.",
+      "fix": "Write and check LF bytes, use git attributes, preserve raw UTF-8 bytes for upload, and repeat remote CI.",
+      "initial_ci_url": "https://github.com/Tin9AnGUgta/gan-hemt-llm-wiki/actions/runs/44287847205"
     }
   ],
   "not_executed": [

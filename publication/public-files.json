@@ -2,6 +2,10 @@
   "schema_version": 1,
   "note": "Allowlist plus hashes; not a legal determination. Research/source permissions need separate review.",
   "files": {
+    ".gitattributes": {
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
+      "origin": "project_authored"
+    },
     ".github/workflows/check.yml": {
       "sha256": "3efd30c9544f39661fe7c95ae94edac62da2b9b21483589512ebed23670341e6",
       "origin": "project_authored_or_bibliographic_metadata"
@@ -11,7 +15,7 @@
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "AGENTS.md": {
-      "sha256": "44f66c1bbf7e83c4f0eb3f2a2b08769d05994fa94e645f2c8df2d492f73df8fc",
+      "sha256": "05f20933a919d781d64aa87479cd5d5615cdd3419f3e2ef1ac3f7e0b72584431",
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "docs/README.md": {
@@ -19,7 +23,7 @@
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "publication/bootstrap-review.json": {
-      "sha256": "aee30c76c5e5a490e94b11aeee2a584cf489e490a6e2bd0d71f9b2f6264dc251",
+      "sha256": "69160e5ffa23aa157451fed33fcc6ceb62af29a505065365a23142e03c8ac7c1",
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "publication/README.md": {
@@ -27,35 +31,35 @@
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "publication/registrations.json": {
-      "sha256": "526e6ed653dbd47b87c2d9dcaeb9661e7e8af792a9a423403971723480396d30",
+      "sha256": "ce7ac8d7d853dff206d32c2628e7ad58dbff272f3c6973da4e2010423c6d8b9a",
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "README.md": {
-      "sha256": "db190dfcb4049235b2c22d02b2ec2ec44f3c0e71e5aed58b815fad469ec3313c",
+      "sha256": "ba96c6f08890eb820250e6dcde8dc4382adb73e94bd8a8361db0d02d09f8c5ed",
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "records/20261118T101701464577Z/events.jsonl": {
-      "sha256": "5294f6b45840c7d40c7e4eae2f8a44df68d106a911e60efb680b01ea2f078e42",
+      "sha256": "a8c526f09acfd5b4c31d6986913748d8ad011740f027f5483f9b6bec6dd4440c",
       "origin": "status_only_generated"
     },
     "records/20261118T101701464577Z/summary.json": {
-      "sha256": "2ea4d239f2c40146f0b7f0da9c9e700f1ded8e09ed73623d90c1b5a431275f8d",
+      "sha256": "317f02d19a0bd19cad12973cfd36503d486facdf6ba8bae622f4ed30eb8a2eb8",
       "origin": "status_only_generated"
     },
     "records/20261118T102144365841Z/events.jsonl": {
-      "sha256": "8adf40f34bdc4b4f4e6d83271621b368174179ab84102b9736b29cb7269e832d",
+      "sha256": "771767e5c7b5d0278a7729e60fe0ee24f8f4f5bd39f25d652aa63d8bec4a4e7f",
       "origin": "status_only_generated"
     },
     "records/20261118T102144365841Z/summary.json": {
-      "sha256": "feca4746dec57daaf14a2c04ec42acd5bd1e133f3a31b875e3b25fb59d9f4dfe",
+      "sha256": "80f5cb4eb0a6eceb548a3a3f47fc63ee115f4458b9928960624bd14ee7858ac0",
       "origin": "status_only_generated"
     },
     "records/implementation-checks.json": {
-      "sha256": "93d25ebb55372d848914fa4021d0583e7dd61052eee8c0e23409833268c09787",
+      "sha256": "9e5c4bb896923314ae535161605593fbfa784dc6a796edbfd6305727ac01d995",
       "origin": "status_only_generated"
     },
     "records/latest.json": {
-      "sha256": "53d8ec089879d65efc0b19107406cb014fa7dd1a3e649350ee2b689a82b16f92",
+      "sha256": "de38547a593c357268f752c50dfc51b5bc34a065c49e31c30c8d670ca57c83dc",
       "origin": "status_only_generated"
     },
     "records/README.md": {
@@ -63,7 +67,7 @@
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "report/reflection.md": {
-      "sha256": "c2ee4d647923b8aaee733b08fe9d5c18e89e8a1998a7faffa7ea090592a5e93c",
+      "sha256": "8bb0343e8cd9bb4c2f7e6e23199ba19b3dd98668c41b76f7a70a5104d3f4f0d1",
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "requirements.txt": {
@@ -75,15 +79,15 @@
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "sources/catalog.json": {
-      "sha256": "f8f8a3660042f9248148d2cd390a976f7788aadc4ae7fba0fd7c9d2c0787c93a",
+      "sha256": "716dcc2996a1370bb88d3926ce1ab909bbb21e8b222b242eb3729b897707faff",
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "sources/external.json": {
-      "sha256": "9e47a4f01d80b11613df1918c93d27414a07b4a7471f133a3280b88252aaea51",
+      "sha256": "7eb4995813eacb80edd71a1714eb04471331adc02ca0cbe2907a8fd3298f69cd",
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "sources/verification.json": {
-      "sha256": "f53c5ee2b3b877e5cbe4c7d974e5a6a363fd0a403c4559b7e791a43ef5bb3901",
+      "sha256": "d8e974b05815a41979f8e6f98d57ed9d4e49ea481cbb9d0180575abc9dd49da5",
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "templates/concept.md": {
@@ -99,11 +103,11 @@
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "tests/test_graph.py": {
-      "sha256": "e0f36cf901e4a2e98881f3ff99768129a79ba70f04d88b80e84448d3a41a914c",
+      "sha256": "2ef9dadd2429d98247d80056394caaff5ab2aef23019038e9c2fc97b762e8ad5",
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "tools/wiki.py": {
-      "sha256": "01abc9ed09a6a156e4c3c78e575951c878d896d64368a990a86cd9233916ed9a",
+      "sha256": "60eedd07c8a24f2322c1c4a37fb71bec309a8788dc6c23b51be618120fb3e482",
       "origin": "project_authored_or_bibliographic_metadata"
     },
     "wiki/comparisons/README.md": {

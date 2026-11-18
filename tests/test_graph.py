@@ -35,6 +35,12 @@ class GraphTests(unittest.TestCase):
         text = "$R=[1/(q n_s mu)](L/W)$ and [real](concept.md)"
         self.assertEqual(wiki.markdown_links(text), [("", "concept.md")])
 
+    def test_json_writer_preserves_lf_bytes_across_platforms(self):
+        path = self.run / "portable.json"
+        wiki.write_json(path, {"scope": "fixture", "items": [1, 2]})
+        self.assertNotIn(b"\r\n", path.read_bytes())
+        self.assertTrue(path.read_bytes().endswith(b"\n"))
+
     def test_failure_routes_to_actual_source_and_invalidates_dependents(self):
         self.state["nodes"]["G0"]["status"] = "passed"
         self.state["nodes"]["G1:P01"]["status"] = "passed"
@@ -92,7 +98,7 @@ class GraphTests(unittest.TestCase):
         repo = Path(self.tmp.name) / "public"
         (repo / "publication").mkdir(parents=True)
         page = repo / "README.md"
-        page.write_text("[bad](../private/source.txt)\n", encoding="utf-8")
+        page.write_text("[bad](../private/source.txt)\n", encoding="utf-8", newline="\n")
         wiki.write_json(repo / "publication/public-files.json", {"files": {"README.md": {"sha256": wiki.digest(page)}}})
         (repo / "secret.pdf").write_bytes(b"%PDF-fixture")
         errors = wiki.public_errors(repo)
@@ -104,7 +110,7 @@ class GraphTests(unittest.TestCase):
         repo = Path(self.tmp.name) / "public"
         (repo / "publication").mkdir(parents=True)
         code = repo / "checker.py"
-        code.write_text((wiki.REPO / "tools/wiki.py").read_text(encoding="utf-8"), encoding="utf-8")
+        code.write_text((wiki.REPO / "tools/wiki.py").read_text(encoding="utf-8"), encoding="utf-8", newline="\n")
         wiki.write_json(repo / "publication/public-files.json", {"files": {"checker.py": {"sha256": wiki.digest(code)}}})
         self.assertEqual(wiki.public_errors(repo), [])
         code.write_text("/" + "home" + "/" + "fixture-person" + "/document", encoding="utf-8")
@@ -123,6 +129,9 @@ class GraphTests(unittest.TestCase):
         for sensitive in ["private source excerpt", "private-input", "private source paragraph", "secret source extract"]:
             self.assertNotIn(sensitive, public_text)
         self.assertIn('"other"', public_text)
+        for path in (fake_repo / "records").rglob("*"):
+            if path.is_file():
+                self.assertNotIn(b"\r\n", path.read_bytes())
 
     def test_manifest_requires_explicit_origin_registration(self):
         fake_repo = Path(self.tmp.name) / "public"
@@ -140,7 +149,7 @@ class GraphTests(unittest.TestCase):
         (fake_repo / "publication").mkdir(parents=True)
         (fake_repo / "sources").mkdir()
         wiki.write_json(fake_repo / "sources/catalog.json", {"sources": []})
-        (fake_repo / "README.md").write_text("Project scaffold\n", encoding="utf-8")
+        (fake_repo / "README.md").write_text("Project scaffold\n", encoding="utf-8", newline="\n")
         names = ["README.md", "sources/catalog.json", "publication/registrations.json"]
         wiki.write_json(fake_repo / "publication/registrations.json", {"files": {
             name: {"origin": "test_project_authored", "release": "eligible_project_authored", "basis": "test fixture"}
@@ -148,7 +157,7 @@ class GraphTests(unittest.TestCase):
         with patch.object(wiki, "REPO", fake_repo):
             wiki.update_manifest()
         self.assertEqual(wiki.public_errors(fake_repo), [])
-        (fake_repo / "README.md").write_text("Changed after approval\n", encoding="utf-8")
+        (fake_repo / "README.md").write_text("Changed after approval\n", encoding="utf-8", newline="\n")
         self.assertTrue(any("Changed file" in e for e in wiki.public_errors(fake_repo)))
 
 

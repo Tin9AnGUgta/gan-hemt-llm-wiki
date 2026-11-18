@@ -185,6 +185,11 @@
       "origin": "project_authored_or_bibliographic_metadata",
       "release": "eligible_project_authored",
       "basis": "Project-written scaffold or status-only export; no source full text, research drafts or source figures included."
+    },
+    ".gitattributes": {
+      "origin": "project_authored",
+      "release": "eligible_project_authored",
+      "basis": "Project-owned line-ending configuration; no third-party content."
     }
   }
 }
