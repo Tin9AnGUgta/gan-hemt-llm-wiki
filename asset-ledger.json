@@ -1,0 +1,33 @@
+{
+  "edition": "public-teaching",
+  "content": "Project-authored general teaching, explanations and derivations; external works are cited rather than bundled.",
+  "diagrams": {
+    "origin": "Project-authored HTML and inline SVG",
+    "scope": "Qualitative scientific teaching; no original thesis figure, sample layer sequence, measured plot or tracing included."
+  },
+  "interactions": {
+    "I01": "Generic eight-part AlGaN/GaN functional diagram; no particular experimental sample.",
+    "I02": "Uniform single low-field sheet model; assumed density and mobility, not experimental data.",
+    "I03": "Hypothetical two-parameter Weibull cumulative model; not device lifetime evidence."
+  },
+  "bibliography": "Five author/title records and reading questions only. Unverified official URLs are omitted. Bibliographic citation is not redistribution permission.",
+  "externalSources": "Links to public academic sources only; no external PDF or figure assets included.",
+  "software": [
+    {
+      "name": "MathJax",
+      "version": "3.2.2",
+      "file": "vendor/tex-svg.js",
+      "license": "Apache-2.0",
+      "licenseFile": "vendor/MathJax-LICENSE.txt"
+    }
+  ],
+  "excluded": [
+    "Original thesis PDFs",
+    "Extracted full texts",
+    "Original thesis figures",
+    "Private research notes and review records",
+    "Unapproved sample conditions and experimental results",
+    "Credentials and Git history"
+  ],
+  "permissionBoundary": "Prepared for final content review. No general license is granted to third-party material by citing it. Publication requires the owner’s separate approval."
+}

@@ -1,0 +1,661 @@
+{
+  "inline": [
+    {
+      "page": 2,
+      "where": "body-1",
+      "tex": "q"
+    },
+    {
+      "page": 2,
+      "where": "body-1",
+      "tex": "-q"
+    },
+    {
+      "page": 7,
+      "where": "body-0",
+      "tex": "E_v"
+    },
+    {
+      "page": 7,
+      "where": "body-0",
+      "tex": "E_c"
+    },
+    {
+      "page": 7,
+      "where": "body-1",
+      "tex": "E_g"
+    },
+    {
+      "page": 7,
+      "where": "quiz",
+      "tex": "E_g"
+    },
+    {
+      "page": 11,
+      "where": "body-0",
+      "tex": "n"
+    },
+    {
+      "page": 11,
+      "where": "body-0",
+      "tex": "p"
+    },
+    {
+      "page": 11,
+      "where": "body-0",
+      "tex": "p"
+    },
+    {
+      "page": 11,
+      "where": "body-0",
+      "tex": "p"
+    },
+    {
+      "page": 11,
+      "where": "body-1",
+      "tex": "n_s"
+    },
+    {
+      "page": 11,
+      "where": "body-1",
+      "tex": "t"
+    },
+    {
+      "page": 11,
+      "where": "body-1",
+      "tex": "n_s=nt"
+    },
+    {
+      "page": 11,
+      "where": "body-2",
+      "tex": "n=10^{17}"
+    },
+    {
+      "page": 11,
+      "where": "body-2",
+      "tex": "t=10^{-5}"
+    },
+    {
+      "page": 11,
+      "where": "body-2",
+      "tex": "10^{12}"
+    },
+    {
+      "page": 11,
+      "where": "quiz",
+      "tex": "10^{13}"
+    },
+    {
+      "page": 15,
+      "where": "body-1",
+      "tex": "E_F"
+    },
+    {
+      "page": 18,
+      "where": "body-0",
+      "tex": "\\mu"
+    },
+    {
+      "page": 18,
+      "where": "body-1",
+      "tex": "\\mu"
+    },
+    {
+      "page": 18,
+      "where": "body-1",
+      "tex": "E"
+    },
+    {
+      "page": 18,
+      "where": "body-1",
+      "tex": "\\mu=1000"
+    },
+    {
+      "page": 18,
+      "where": "body-1",
+      "tex": "E=10"
+    },
+    {
+      "page": 18,
+      "where": "body-1",
+      "tex": "10^4"
+    },
+    {
+      "page": 19,
+      "where": "body-1",
+      "tex": "dn/dx"
+    },
+    {
+      "page": 19,
+      "where": "body-1",
+      "tex": "x"
+    },
+    {
+      "page": 19,
+      "where": "body-1",
+      "tex": "\\Gamma_n"
+    },
+    {
+      "page": 19,
+      "where": "body-1",
+      "tex": "D_n>0"
+    },
+    {
+      "page": 19,
+      "where": "body-2",
+      "tex": "x"
+    },
+    {
+      "page": 20,
+      "where": "body-0",
+      "tex": "J"
+    },
+    {
+      "page": 20,
+      "where": "body-0",
+      "tex": "-q"
+    },
+    {
+      "page": 20,
+      "where": "body-1",
+      "tex": "q n\\mu_nE"
+    },
+    {
+      "page": 20,
+      "where": "body-1",
+      "tex": "qD_n\\,dn/dx"
+    },
+    {
+      "page": 21,
+      "where": "body-0",
+      "tex": "J_n=q n\\mu_nE"
+    },
+    {
+      "page": 21,
+      "where": "body-1",
+      "tex": "J=\\sigma E"
+    },
+    {
+      "page": 21,
+      "where": "body-1",
+      "tex": "\\sigma"
+    },
+    {
+      "page": 21,
+      "where": "body-2",
+      "tex": "\\rho"
+    },
+    {
+      "page": 21,
+      "where": "body-2",
+      "tex": "\\sigma"
+    },
+    {
+      "page": 22,
+      "where": "body-0",
+      "tex": "A"
+    },
+    {
+      "page": 22,
+      "where": "body-0",
+      "tex": "L"
+    },
+    {
+      "page": 22,
+      "where": "body-0",
+      "tex": "E=V/L"
+    },
+    {
+      "page": 22,
+      "where": "body-0",
+      "tex": "I=JA"
+    },
+    {
+      "page": 22,
+      "where": "body-1",
+      "tex": "J=\\sigma E"
+    },
+    {
+      "page": 22,
+      "where": "body-1",
+      "tex": "I=\\sigma AV/L"
+    },
+    {
+      "page": 22,
+      "where": "body-1",
+      "tex": "R=V/I"
+    },
+    {
+      "page": 22,
+      "where": "body-1",
+      "tex": "R=\\rho L/A"
+    },
+    {
+      "page": 22,
+      "where": "quiz",
+      "tex": "A"
+    },
+    {
+      "page": 23,
+      "where": "body-0",
+      "tex": "v_d"
+    },
+    {
+      "page": 23,
+      "where": "body-0",
+      "tex": "v_d"
+    },
+    {
+      "page": 23,
+      "where": "body-2",
+      "tex": "q=1.602176634\\times10^{-19}"
+    },
+    {
+      "page": 23,
+      "where": "body-2",
+      "tex": "n_s"
+    },
+    {
+      "page": 23,
+      "where": "body-2",
+      "tex": "v_d"
+    },
+    {
+      "page": 24,
+      "where": "body-0",
+      "tex": "R=\\rho\\frac{L}{A}"
+    },
+    {
+      "page": 24,
+      "where": "body-1",
+      "tex": "R=\\frac{\\rho}{t}\\frac{L}{W}"
+    },
+    {
+      "page": 24,
+      "where": "body-1",
+      "tex": "R_s"
+    },
+    {
+      "page": 24,
+      "where": "body-1",
+      "tex": "L/W=1"
+    },
+    {
+      "page": 24,
+      "where": "body-1",
+      "tex": "R_s"
+    },
+    {
+      "page": 24,
+      "where": "body-2",
+      "tex": "R_s=100"
+    },
+    {
+      "page": 24,
+      "where": "body-2",
+      "tex": "L/W"
+    },
+    {
+      "page": 25,
+      "where": "body-0",
+      "tex": "E=\\frac{V}{L}"
+    },
+    {
+      "page": 25,
+      "where": "body-0",
+      "tex": "v_d=\\mu E"
+    },
+    {
+      "page": 25,
+      "where": "body-0",
+      "tex": "I=q n_sWv_d"
+    },
+    {
+      "page": 25,
+      "where": "body-0",
+      "tex": "I=q n_sW\\mu\\frac{V}{L}"
+    },
+    {
+      "page": 25,
+      "where": "body-1",
+      "tex": "R=V/I"
+    },
+    {
+      "page": 25,
+      "where": "body-1",
+      "tex": "R=[1/(q n_s μ)]L/W"
+    },
+    {
+      "page": 25,
+      "where": "body-1",
+      "tex": "R=R_sL/W"
+    },
+    {
+      "page": 25,
+      "where": "body-1",
+      "tex": "R_s=1/(q n_s μ)"
+    },
+    {
+      "page": 25,
+      "where": "body-2",
+      "tex": "q n_s\\mu"
+    },
+    {
+      "page": 25,
+      "where": "body-2",
+      "tex": "\\mathrm{C}/(\\mathrm{V}\\cdot\\mathrm{s})=\\mathrm{S}"
+    },
+    {
+      "page": 25,
+      "where": "body-2",
+      "tex": "R_{on}"
+    },
+    {
+      "page": 25,
+      "where": "quiz",
+      "tex": "R_s"
+    },
+    {
+      "page": 25,
+      "where": "quiz",
+      "tex": "n_s"
+    },
+    {
+      "page": 25,
+      "where": "quiz",
+      "tex": "\\mu"
+    },
+    {
+      "page": 26,
+      "where": "body-0",
+      "tex": "\\mu"
+    },
+    {
+      "page": 26,
+      "where": "body-0",
+      "tex": "n_s"
+    },
+    {
+      "page": 26,
+      "where": "body-0",
+      "tex": "n_s"
+    },
+    {
+      "page": 26,
+      "where": "body-0",
+      "tex": "\\mu"
+    },
+    {
+      "page": 26,
+      "where": "body-0",
+      "tex": "R_s"
+    },
+    {
+      "page": 26,
+      "where": "body-1",
+      "tex": "n_s=10^{13}"
+    },
+    {
+      "page": 26,
+      "where": "body-1",
+      "tex": "\\mu=1000"
+    },
+    {
+      "page": 26,
+      "where": "quiz",
+      "tex": "n_s"
+    },
+    {
+      "page": 26,
+      "where": "quiz",
+      "tex": "\\mu"
+    },
+    {
+      "page": 26,
+      "where": "quiz",
+      "tex": "R_s"
+    },
+    {
+      "page": 26,
+      "where": "answer",
+      "tex": "R_s"
+    },
+    {
+      "page": 30,
+      "where": "body-1",
+      "tex": "ρ_{ch}"
+    },
+    {
+      "page": 30,
+      "where": "body-1",
+      "tex": "ε"
+    },
+    {
+      "page": 32,
+      "where": "body-0",
+      "tex": "\\phi"
+    },
+    {
+      "page": 32,
+      "where": "body-0",
+      "tex": "Q"
+    },
+    {
+      "page": 32,
+      "where": "body-0",
+      "tex": "Q\\Delta\\phi"
+    },
+    {
+      "page": 32,
+      "where": "body-0",
+      "tex": "-q"
+    },
+    {
+      "page": 32,
+      "where": "body-0",
+      "tex": "-q\\Delta\\phi"
+    },
+    {
+      "page": 36,
+      "where": "body-1",
+      "tex": "n_s"
+    },
+    {
+      "page": 41,
+      "where": "body-2",
+      "tex": "E_{avg}=V/L"
+    },
+    {
+      "page": 44,
+      "where": "body-0",
+      "tex": "Q=CV"
+    },
+    {
+      "page": 45,
+      "where": "body-1",
+      "tex": "D=\\varepsilon_i E_i"
+    },
+    {
+      "page": 45,
+      "where": "body-1",
+      "tex": "V_i=E_i t_i"
+    },
+    {
+      "page": 45,
+      "where": "body-1",
+      "tex": "t_i/\\varepsilon_i"
+    },
+    {
+      "page": 47,
+      "where": "body-0",
+      "tex": "T"
+    },
+    {
+      "page": 47,
+      "where": "body-0",
+      "tex": "F(t)=P(T\\le t)"
+    },
+    {
+      "page": 47,
+      "where": "body-0",
+      "tex": "t"
+    },
+    {
+      "page": 47,
+      "where": "body-1",
+      "tex": "t_p"
+    },
+    {
+      "page": 47,
+      "where": "body-1",
+      "tex": "p"
+    },
+    {
+      "page": 47,
+      "where": "body-1",
+      "tex": "p"
+    },
+    {
+      "page": 48,
+      "where": "body-0",
+      "tex": "\\eta"
+    },
+    {
+      "page": 48,
+      "where": "body-0",
+      "tex": "\\beta"
+    },
+    {
+      "page": 48,
+      "where": "body-1",
+      "tex": "F(t_p)=p"
+    },
+    {
+      "page": 48,
+      "where": "body-1",
+      "tex": "-\\ln(1-p)=(t_p/\\eta)^{\\beta}"
+    },
+    {
+      "page": 48,
+      "where": "body-1",
+      "tex": "1/\\beta"
+    },
+    {
+      "page": 48,
+      "where": "body-2",
+      "tex": "t=\\eta"
+    }
+  ],
+  "display": [
+    {
+      "page": 7,
+      "tex": "E_g=E_c-E_v"
+    },
+    {
+      "page": 11,
+      "tex": "n_s=\\int n(z)\\,dz"
+    },
+    {
+      "page": 18,
+      "tex": "v_d=\\mu E"
+    },
+    {
+      "page": 18,
+      "tex": "\\mathbf v_n=-\\mu_n\\mathbf E"
+    },
+    {
+      "page": 19,
+      "tex": "\\Gamma_n=-D_n\\frac{dn}{dx}"
+    },
+    {
+      "page": 20,
+      "tex": "J_n=q n\\mu_n E+qD_n\\frac{dn}{dx}"
+    },
+    {
+      "page": 21,
+      "tex": "\\sigma=q(n\\mu_n+p\\mu_p)"
+    },
+    {
+      "page": 21,
+      "tex": "\\rho=\\frac{1}{\\sigma}"
+    },
+    {
+      "page": 22,
+      "tex": "R=\\frac{V}{I}=\\frac{L}{\\sigma A}=\\rho\\frac{L}{A}"
+    },
+    {
+      "page": 23,
+      "tex": "\\Delta N=n_s Wv_d\\Delta t"
+    },
+    {
+      "page": 23,
+      "tex": "I=\\frac{q\\Delta N}{\\Delta t}=q n_s Wv_d"
+    },
+    {
+      "page": 24,
+      "tex": "R=\\rho\\frac{L}{Wt}=\\frac{\\rho}{t}\\frac{L}{W}"
+    },
+    {
+      "page": 25,
+      "tex": "I=q n_sW\\mu\\frac{V}{L}"
+    },
+    {
+      "page": 25,
+      "tex": "R=\\frac{1}{q n_s\\mu}\\frac{L}{W}"
+    },
+    {
+      "page": 25,
+      "tex": "R_s=\\frac{1}{q n_s\\mu}"
+    },
+    {
+      "page": 30,
+      "tex": "E=-\\frac{d\\phi}{dx}"
+    },
+    {
+      "page": 30,
+      "tex": "\\frac{dE}{dx}=\\frac{\\rho_{ch}}{\\varepsilon}"
+    },
+    {
+      "page": 32,
+      "tex": "\\Delta U_e=-q\\,\\Delta\\phi"
+    },
+    {
+      "page": 41,
+      "tex": "E_{avg}=\\frac{V}{L}"
+    },
+    {
+      "page": 44,
+      "tex": "C=\\frac{dQ}{dV}"
+    },
+    {
+      "page": 45,
+      "tex": "\\frac{V_1}{V_2}=\\frac{t_1/\\varepsilon_1}{t_2/\\varepsilon_2}"
+    },
+    {
+      "page": 47,
+      "tex": "F(t)=P(T\\le t)"
+    },
+    {
+      "page": 47,
+      "tex": "F(t_p)=p"
+    },
+    {
+      "page": 48,
+      "tex": "F(t)=1-e^{-(t/\\eta)^{\\beta}}"
+    },
+    {
+      "page": 48,
+      "tex": "-\\ln(1-p)=(t_p/\\eta)^{\\beta}"
+    },
+    {
+      "page": 48,
+      "tex": "t_p=\\eta[-\\ln(1-p)]^{1/\\beta}"
+    }
+  ],
+  "widgets": [
+    "R_s=\\frac{1}{q n_s\\mu}",
+    "R=R_s\\frac{L}{W}",
+    "F(t)=1-e^{-(t/\\eta)^\\beta}",
+    "t_p=\\eta[-\\ln(1-p)]^{1/\\beta}"
+  ]
+}

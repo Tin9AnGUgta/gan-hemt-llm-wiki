@@ -1,0 +1,109 @@
+{
+  "edition": "public-teaching",
+  "pages": 57,
+  "chapters": 7,
+  "entrypoint": "index.html",
+  "publicationStatus": "awaiting final approval; not deployed",
+  "allowlist": [
+    ".nojekyll",
+    "app.mjs",
+    "asset-ledger.json",
+    "bibliography.html",
+    "bibliography.json",
+    "deployment-manifest.json",
+    "favicon.svg",
+    "formulas.json",
+    "index.html",
+    "models.mjs",
+    "outline.json",
+    "sources.html",
+    "sources.json",
+    "structure.mjs",
+    "theme.css",
+    "vendor/MathJax-LICENSE.txt",
+    "vendor/tex-svg.js"
+  ],
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app.mjs",
+      "bytes": 10888,
+      "sha256": "2878d707cf471c3bc28cf801e49946c3eed331b8fcb85ca91df9327a79644c6d"
+    },
+    {
+      "path": "asset-ledger.json",
+      "bytes": 1606,
+      "sha256": "86156b0439938002821201332767388a7bc5dd8100978ed934018824478eb841"
+    },
+    {
+      "path": "bibliography.html",
+      "bytes": 1744,
+      "sha256": "c3d62dd30892432e244c545c75ff7ac58552239995bfb7f894e65c3155070e02"
+    },
+    {
+      "path": "bibliography.json",
+      "bytes": 1255,
+      "sha256": "e2318485cdbc220cbda4a18e7deea061cfb167684473b75228dedbb8651191ca"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 225,
+      "sha256": "ef2b2335585d72f2e86f896c6079b617d289b728a7f2985b6078f8945111a6c2"
+    },
+    {
+      "path": "formulas.json",
+      "bytes": 10761,
+      "sha256": "f31e2bb5feca95c6ac2e3b2e5e9bf12206c1d32ba43fd8161ac267b94a8fefdc"
+    },
+    {
+      "path": "index.html",
+      "bytes": 156734,
+      "sha256": "b557640620a9730b46bdb3339b9063c940e286adba3e9228aa2a9ce1f909eab3"
+    },
+    {
+      "path": "models.mjs",
+      "bytes": 1251,
+      "sha256": "dc55147948c65e9e091d8abb19cf1a2108f8569a70c4350300c0bc0126a7e360"
+    },
+    {
+      "path": "outline.json",
+      "bytes": 10022,
+      "sha256": "c98306161f5fd3ded49f2ea76a7debda14bfc8d36fb177a40fa18e10de90c400"
+    },
+    {
+      "path": "sources.html",
+      "bytes": 5384,
+      "sha256": "8b0c0fe52eeb4add87a7597966cb12add7a0346dce9d44d1c9d6710c2832b704"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 3981,
+      "sha256": "8a82431fa7d8c5443a1750198375dbaf9ba662d5d64fbefbc2110869efc4b902"
+    },
+    {
+      "path": "structure.mjs",
+      "bytes": 2374,
+      "sha256": "aea4fe4d99c7a1b7f1c4260cd2c63a384f7c6253aef9b72796943c4f3af05feb"
+    },
+    {
+      "path": "theme.css",
+      "bytes": 8682,
+      "sha256": "556afd8c9e136166cac737bcd320fe4e9c6e94ab6eef51ee72bb59124469179f"
+    },
+    {
+      "path": "vendor/MathJax-LICENSE.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "vendor/tex-svg.js",
+      "bytes": 2108580,
+      "sha256": "d4295dc33744836935c1399feece5159577b34c5c8ffb9f1c6324cd82e03a882"
+    }
+  ],
+  "selfHash": "The manifest itself is excluded from its entries to avoid a circular hash."
+}

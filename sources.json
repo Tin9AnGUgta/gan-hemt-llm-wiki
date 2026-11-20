@@ -1,0 +1,62 @@
+{
+  "B": {
+    "title": "OpenStax University Physics 3 §9.5 — Band Theory of Solids",
+    "url": "https://openstax.org/books/university-physics-volume-3/pages/9-5-band-theory-of-solids",
+    "scope": "能階、能帶與導電分類；只連結，不重製原圖。"
+  },
+  "H": {
+    "title": "OpenStax University Physics 3 §9.6 — Semiconductors and Doping",
+    "url": "https://openstax.org/books/university-physics-volume-3/pages/9-6-semiconductors-and-doping",
+    "scope": "電洞、摻雜與Hall量測的基礎。"
+  },
+  "L1": {
+    "title": "MIT 6.012 Lecture 1 — Introduction to Semiconductors",
+    "url": "https://ocw.mit.edu/courses/6-012-microelectronic-devices-and-circuits-fall-2009/a37c73e7fcff4bcb5c5f1177e12d0891_MIT6_012F09_lec01.pdf",
+    "scope": "PDF4–14、17–22：晶體、載子、漂移、導電率。"
+  },
+  "L2": {
+    "title": "MIT 6.012 Lecture 2 — Uniform Excitation; Non-uniform Conditions",
+    "url": "https://ocw.mit.edu/courses/6-012-microelectronic-devices-and-circuits-fall-2009/b6db5daeb4828c8e6c375aaaf6fa0d41_MIT6_012F09_lec02.pdf",
+    "scope": "PDF17–20、23：擴散、漂移與總電流。"
+  },
+  "L3": {
+    "title": "MIT 6.012 Lecture 3 — Solving the Five Equations",
+    "url": "https://ocw.mit.edu/courses/6-012-microelectronic-devices-and-circuits-fall-2009/eba3aa6bfb6bc14b799f354d6448958c_MIT6_012F09_lec03.pdf",
+    "scope": "PDF14–15及電靜力方程：電荷、電場、電位與載子分布。"
+  },
+  "L4": {
+    "title": "MIT 6.012 Lecture 4 — p–n Junctions: Electrostatics",
+    "url": "https://ocw.mit.edu/courses/6-012-microelectronic-devices-and-circuits-fall-2009/c053714447998e522f02db0776987091_MIT6_012F09_lec04.pdf",
+    "scope": "PDF3–13：接面電荷、空乏近似與偏壓。"
+  },
+  "C": {
+    "title": "OpenStax University Physics 2 §8.2 — Capacitors in Series and in Parallel",
+    "url": "https://openstax.org/books/university-physics-volume-2/pages/8-2-capacitors-in-series-and-in-parallel",
+    "scope": "串聯電容與分壓；本教材自行推導理想平面多層近似。"
+  },
+  "G": {
+    "title": "TU Wien — Characterization of electrically active defects at III-N/dielectric interfaces, Introduction §1.1–1.1.2",
+    "url": "https://www.iue.tuwien.ac.at/phd/stradiotto/Introduction.html",
+    "scope": "公開論文章節：GaN結構、成長、極化及電子供應。教材不採用其中樣品數據、圖表或材料參數表。"
+  },
+  "A": {
+    "title": "Ambacher et al. (1999), Journal of Applied Physics 85, 3222–3233 — TUM研究書目與摘要",
+    "url": "https://portal.fis.tum.de/en/publications/two-dimensional-electron-gases-induced-by-spontaneous-and-piezoel-3/",
+    "scope": "DOI10.1063/1.369664；自發／壓電極化與異質結構侷限。只用定性原理，未重製實驗資料。"
+  },
+  "T": {
+    "title": "Canato et al., OFF-state trapping phenomena in GaN HEMTs — arXiv:2107.05934（期刊版2020，作者稿2021）",
+    "url": "https://arxiv.org/abs/2107.05934",
+    "scope": "公開作者稿：GaN陷阱、C–V及脈衝電流分析。只作時間／電荷效應的原理與方法參考，不引用其樣品、機制判定、參數或實驗數字；一般Gate／Drain lag名稱仍須回查各研究的測試定義。"
+  },
+  "D": {
+    "title": "Suehle (2002), Ultra-Thin Gate Oxide Reliability: Physical Models, Statistics, and Characterization — NIST",
+    "url": "https://www.nist.gov/publications/ultra-thin-gate-oxide-reliability-physical-models-statistics-and-characterization",
+    "scope": "介電層失效及可靠度推估的一般方法。原文研究氧化層，不能據此指定GaN樣品的機制或參數。"
+  },
+  "W": {
+    "title": "NIST Engineering Statistics Handbook §8.1.6.2 — Weibull",
+    "url": "https://www.itl.nist.gov/div898/handbook/apr/section1/apr162.htm",
+    "scope": "二參數Weibull、分位與尺度／形狀。符號改用η與β，推導為本教材自行整理。"
+  }
+}
